@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/ellismarjr/clean-node-api.git",
   "author": "Junior de Oliveira <ellismarjr@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
 }
