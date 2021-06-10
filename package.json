@@ -6,7 +6,8 @@
   "author": "Junior de Oliveira <ellismarjr@hotmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "standard": {
     "env": ["jest"]
