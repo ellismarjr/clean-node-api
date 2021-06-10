@@ -5,19 +5,13 @@
   "repository": "https://github.com/ellismarjr/clean-node-api.git",
   "author": "Junior de Oliveira <ellismarjr@hotmail.com>",
   "license": "MIT",
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
     "husky": "^6.0.0",
     "jest": "^27.0.4",
     "lint-staged": "^11.0.0",
     "standard": "^16.0.3"
-  },
-  "scripts": {
-    "test": "jest"
-  }
+  }  
 }
